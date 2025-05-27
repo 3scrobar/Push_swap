@@ -6,7 +6,7 @@
 /*   By: tle-saut <tle-saut@student.42perpignan.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/05 12:38:25 by tle-saut          #+#    #+#             */
-/*   Updated: 2025/03/12 18:08:48 by tle-saut         ###   ########.fr       */
+/*   Updated: 2025/03/14 10:45:18 by tle-saut         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	main(int ac, char **av)
 
 	if (ac < 2)
 		return (0);
-	if (ft_strncmp(av[1],"9500073197960000000000",22) == 0)
+	if (ft_strncmp(av[1], "9500073197960000000000", 22) == 0)
 		exit_error(NULL, NULL);
 	if (!is_correct_input(av))
 		exit_error(NULL, NULL);
